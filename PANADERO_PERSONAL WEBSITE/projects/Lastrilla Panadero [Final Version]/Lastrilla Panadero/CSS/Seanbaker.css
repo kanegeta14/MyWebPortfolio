@@ -1,0 +1,227 @@
+@font-face {
+  font-family: Titlefont;
+  src: url(../Fonts/Merchant\ Copy\ Doublesize.ttf);
+}
+
+@font-face {
+  font-family: SoBad;
+  src: url(../Fonts/SOBAD___.ttf);
+}
+
+body {
+  background-image: url(../Images/mao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 101%;
+}
+
+.King {
+  position: relative;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 50px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "SoBad", sans-serif;
+  border: 3px solid black;
+  background-image: url(../Images/Fractured_Shrines.png);
+  border-radius: 20px;
+  width: 20%;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+@keyframes title {
+  0% {
+    transform: translateX(25%);
+  }
+  50% {
+    transform: translateX(15%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.Lore {
+  float: left;
+  width: 48%;
+  text-align: center;
+}
+
+.Lore .pg {
+  border: 2px solid black;
+  background-image: url(../Images/Fractured_Shrines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  font-family: "Titlefont", sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 40px;
+  text-indent: 60px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  width: 90%;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Lore .stats {
+  text-align: justify;
+  padding-left: 100px;
+}
+
+.Lore h2 {
+  font-family: "SoBad", sans-serif;
+  font-size: 45px;
+  margin-left: 260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border: 2px solid black;
+  background-image: url(../Images/Fractured_Shrines.png);
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  animation: title 9s infinite ease-in-out;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Lore img {
+  height: 150px;
+  width: 150px;
+  margin: 0px;
+  padding: 0px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Skill {
+  float: right;
+  width: 48%;
+  text-align: center;
+}
+
+.Skill h2 {
+  font-family: "SoBad", sans-serif;
+  font-size: 45px;
+  margin-top: 169px;
+  margin-left: -10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 2px solid black;
+  width: 70%;
+  background-image: url(../Images/Fractured_Shrines.png);
+  border-radius: 10px;
+  animation: title 6s infinite ease-in-out;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Skill .pg {
+  border: 2px solid black;
+  font-family: "Titlefont", sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+  background-image: url(../Images/Fractured_Shrines.png);
+  border-radius: 10px;
+  text-indent: 60px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Skill img {
+  height: 350px;
+  margin: 0px;
+  padding: 0px;
+  animation: Skill 2.5s infinite ease-in-out;
+}
+
+@keyframes Skill {
+  0% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(-5%);
+  }
+}
+
+.qoute {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Titlefont", sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 70%;
+  color: white;
+}
+
+a {
+  width: 13%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "SoBad", "sans-serif";
+  font-size: 30px;
+  text-decoration: none;
+  border: 3px solid black;
+  background-image: url(../Images/The_Crown.png);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(255, 237, 133);
+  transform: scale(1.1);
+  filter: brightness(150%);
+  filter: contrast(2);
+}
+
+.foot {
+  text-align: center;
+}
+
+@keyframes Foot {
+  0% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 25%;
+  }
+}
+
+audio {
+  width: 11%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  animation: Foot infinite 3s ease-in-out;
+  animation-fill-mode: both;
+  height: 40px;
+}

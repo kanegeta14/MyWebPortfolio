@@ -1,0 +1,362 @@
+@font-face {
+  font-family: Titlefont;
+  src: url(../Fonts/Merchant\ Copy\ Doublesize.ttf);
+}
+
+@font-face {
+  font-family: SoBad;
+  src: url(../Fonts/SOBAD___.ttf);
+}
+
+Body {
+  background-image: url(../Images/Lastbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(25, 25, 25);
+  padding: 0px;
+  margin: 0px;
+  background-size: 106.5%;
+  background-position: 0px 0px;
+  overflow: hidden;
+}
+
+audio {
+  width: 11%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  animation: Foot infinite 3s ease-in-out;
+  animation-fill-mode: both;
+  height: 40px;
+}
+
+@keyframes Foot {
+  0% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 25%;
+  }
+}
+
+.LT {
+  position: relative;
+}
+
+.LTT {
+  border: 6px;
+  border-style: ridge;
+  border-radius: 30px;
+  border-color: rgb(145, 34, 34);
+  margin: auto;
+  width: 19%;
+  font-size: 2.1vmax;
+  height: 130px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  text-align: center;
+  background-image: url(../Images/High.png);
+  background-position: center;
+  box-shadow: 25px 9px 19px 4px;
+}
+
+h1 {
+  position: relative;
+  top: -37px;
+  color: #000000;
+  text-shadow: 1px 1px #11ff88;
+}
+
+p,
+li {
+  font-family: "Titlefont", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "SoBad", "sans-serif";
+}
+
+.BarColor span {
+  background: linear-gradient(135deg, rgb(52, 174, 0) 0%, rgb(255, 19, 54));
+  float: left;
+  margin-left: 570px;
+  height: 31px;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.Move {
+  width: 20%;
+  border-radius: 9px;
+  box-shadow: 20px 9px 80px 4px;
+  animation: Move 26s infinite ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes Move {
+  0% {
+    width: 2%;
+  }
+  75% {
+    width: 30%;
+    filter: brightness(100%);
+    box-shadow: 20px 9px 80px 4px #000000;
+  }
+  99% {
+    width: 40%;
+    filter: brightness(900%);
+    box-shadow: 20px 9px 80px 4px #ff0000;
+  }
+  100% {
+    width: 2%;
+  }
+}
+
+.BaIMG {
+  margin-top: 10px;
+  scale: 100%;
+  position: relative;
+}
+
+.BarIMG {
+  margin: auto;
+  width: 42%;
+  height: 40px;
+  box-shadow: 20px 9px 50px 4px;
+  border-radius: 50px;
+}
+
+.Time {
+  position: relative;
+}
+
+.Revive {
+  border: 3px;
+  border-style: ridge;
+  border-color: rgb(52, 106, 107);
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  height: 70px;
+  margin-top: 30px;
+  background-image: url(../Images/Undying.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+h4 {
+  position: relative;
+  font-size: 2.5vmax;
+  bottom: 57px;
+  z-index: 1;
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.689);
+  text-shadow: 1px 1px #000000;
+}
+
+.Hate {
+  position: inherit;
+  font-size: 60px;
+  top: -27px;
+  left: 20px;
+  text-shadow: 2px 2px #ff4e4e;
+  color: #290101;
+}
+
+.Lord {
+  position: inherit;
+  font-size: 60px;
+  top: -27px;
+  left: 150px;
+  text-shadow: 3px 3px #d2aaff;
+  color: #0d0041;
+}
+
+.Lored {
+  position: absolute;
+  border: 6px;
+  border-style: groove;
+  border-color: #2e4495;
+  border-radius: 100px;
+  width: 20%;
+  top: 300px;
+  left: 100px;
+  height: 120px;
+  text-align: center;
+  background-image: url(../Images/Black.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Skilled {
+  position: absolute;
+  border: 6px;
+  border-style: groove;
+  border-color: #410000;
+  width: 20%;
+  top: 300px;
+  right: 70px;
+  height: 120px;
+  text-align: center;
+  background-image: url(../Images/Clock.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Left {
+  font-weight: 900;
+  font-size: 21px;
+  float: left;
+  text-indent: 60px;
+  text-align: left;
+  padding: 10px;
+  border: 9px;
+  border-radius: 40px;
+  border-style: groove;
+  border-left-style: ridge;
+  border-top-style: ridge;
+  border-color: #518d8c;
+  width: 40%;
+  margin-left: 40px;
+  background-image: url(../Images/Arbor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px #cee5ff;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+.Right {
+  font-weight: 900;
+  font-size: 21px;
+  float: right;
+  text-indent: 60px;
+  text-align: left;
+  padding: 10px;
+  border: 9px;
+  border-style: groove;
+  border-left-style: ridge;
+  border-top-style: ridge;
+  border-color: #510406;
+  float: left;
+  width: 40%;
+  margin-left: 225px;
+  background-image: url(../Images/Ramparts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px #ffe3e3;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+p {
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.Select {
+  font-family: "Sobad", "sans-serif";
+  position: absolute;
+  bottom: 10px;
+  margin-left: 795px;
+  margin-bottom: 40px;
+  background-image: url(../Images/Infested.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(95, 0, 85);
+  transition: transform 0.5s;
+  box-shadow: 4px 6px 6px 3px;
+}
+
+li {
+  text-indent: 1px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  text-shadow: 1px 1px #110070;
+}
+
+a:visited {
+  color: rgb(196, 23, 170);
+}
+
+.Select:hover {
+  transform: scale(1.05);
+  filter: saturate(2);
+  color: rgb(11, 80, 67);
+  text-shadow: 1px 1px #87fff7;
+}
+
+.Skull {
+  width: 200px;
+  float: left;
+  margin-left: 245px;
+  margin-top: 20px;
+  animation: Skully 26s ease-in-out infinite;
+  animation-fill-mode: none;
+}
+
+@keyframes Skully {
+  0% {
+    margin-left: 245px;
+    scale: 1;
+  }
+  0.5% {
+    margin-left: 245px;
+    scale: 1.4;
+  }
+  1% {
+    margin-left: 245px;
+    scale: 1;
+  }
+  90% {
+    margin-left: 860px;
+    filter: contrast(0);
+    filter: brightness(100%);
+    filter: opacity(0%);
+  }
+  91% {
+    margin-left: 860px;
+    filter: contrast(100);
+    filter: brightness(0%);
+    filter: opacity(0%);
+  }
+  99% {
+    margin-left: 860px;
+    filter: contrast(0);
+    filter: brightness(0%);
+    filter: opacity(0%);
+  }
+  100% {
+    margin-left: 860px;
+    filter: contrast(0);
+    filter: brightness(0%);
+    filter: opacity(0%);
+  }
+}
