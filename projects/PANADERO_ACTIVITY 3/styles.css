@@ -1,0 +1,41 @@
+body{
+    background-image: url(./images/PIC3.jpg);
+    background-size: repeat;
+}   
+div#header{
+    background-color:#991aaa;
+    font-size: larger;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px
+}
+div#container{
+    width:999px;
+    margin:0 auto;
+    text-align: center;
+}
+p{
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    word-spacing: 0px;
+    font-optical-sizing: 20px;
+}
+.white_bg {
+    background-color: #991aaa;
+    padding: 10px;
+}
+div#PART1{
+    float:center;
+    width:100%
+}
+div#PART2{
+    float:center;
+    width:100%
+}
+
+div#PART3{
+    float:center;
+    width:100%
+}
